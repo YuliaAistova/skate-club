@@ -1,0 +1,24 @@
+:root {
+    /*Шрифты*/
+    --main-font: 'Inter';
+    --accent-font: 'Montserrat';
+    --main-f-size: clamp(0.75rem, 0.4643rem + 0.5952vw, 1rem);
+    --main-f-wght: 400;
+    --section-title-size: clamp(1.5rem, 0.6429rem + 1.7857vw, 2.25rem);;
+    --section-title-wght: 700;
+    --title-size: clamp(1.5rem, 0.9718rem + 2.2535vw, 3rem);;
+    --title-wght: 700;
+    --subtitle-size: clamp(0.75rem, 0.5739rem + 0.7512vw, 1.25rem);;
+    --subtitle-wght: 400;
+    --banner-btn-fsize: clamp(1rem, 0.8239rem + 0.7512vw, 1.5rem);
+    /*Цветовая палитра*/
+    --bg-color: #F1F7FA;
+    --bg-accent: #E1EDF3;
+    --bg-primary: #FFFFFF;
+    --accent-color: #BB4FFC;
+    --accent-soft: #84C5E2;
+    --main-text-color: #1A1A1A;
+    --light-text-color: #5F6B7A;
+    /*Прочее*/
+    --margin-lr: clamp(1.25rem, -0.9507rem + 9.3897vw, 7.5rem);
+}

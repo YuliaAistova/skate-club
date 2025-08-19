@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Клуб фигурного катания</title>
+    <link rel="stylesheet" href="./fonts/fonts.css" />
+    <link rel="stylesheet" href="./styles/variables.css" />
+    <link rel="stylesheet" href="./styles/globals.css" />
+    <link rel="stylesheet" href="./styles/style.css" />
+  </head>
+  <body class="page">
+   <header class="header">
+        <a class="header__logo-link" href="#top" aria-label="На главную"> <img class="header__logo" src="./images/photo_2025-07-15_15-17-43_2 1.png" /> </a>
+        <nav aria-label="Главное меню">
+          <button class="burger" aria-expanded="false" aria-controls="nav-list">
+            <span class="burger__box"><span class="burger__inner"></span></span>
+            <span class="sr-only">Открыть меню</span>
+          </button>
+
+          <ul id="nav-list" class="header__menu">
+            <li><a href="#about">О Клубе</a></li>
+            <li><a href="#groups">Группы</a></li>
+            <li><a href="#price">Цены</a></li>
+            <li><a href="#schedule">Расписание</a></li>
+            <li><a href="#reviews">Отзывы</a></li>
+            <li><a href="#gallery">Галерея</a></li>
+            <li><a href="#where">Где проходит</a></li>
+            <li class="nav__cta"><a href="#form" class="header__button header__button--primary">Записаться</a></li>
+          </ul>
+        </nav>
+        <a href="#form" class="header__button header__button--main">Записаться</a>
+    </header>
+    <main>
+      <section class="banner" id="banner">
+        <div class="banner__content">
+          <h1 class="banner__title">Клуб фигурного катания на коньках и современного танца <br>для детей и взрослых</h1>
+          <p class="banner__subtitle">От первых шагов до уверенного танца</p>
+          <a href="#form" class="btn btn--primary banner__button">Записаться</a>
+        </div>
+      </section> 
+      
+      <section class="about section" id="about">
+        <h2 class="section__title">О Клубе</h2>
+        <div class="about__content">
+          <article class="about__text">
+            <p>В клубе “Фигурные крылья” мы верим, что танец на льду - это больше, чем спорт. Это искусство, свобода и способ выразить себя.</p>
+            <p>Мы создаем пространство, где каждый может раскрыться, научиться слышать музыку и двигаться красиво.</p>
+            <p>Уроки проходят в атмосфере поддержки и вдохновения. Наши преподаватели - это чемпионы, участники международных соревнований и просто люди - влюбленные  в свое дело.</p>
+            <p>Независимо от возраста или уровня подготовки, у нас вы сделаете первые шаги на льду уверенно и с удовольствием.</p>
+            <a href="https://t.me/figurewings" target="_blank" class="about__link">
+              <img src="./svg/Vector.svg" alt="Телеграм" class="telegram_icon" />
+              https://t.me/figurewings
+            </a>
+          </article>
+          <img class="about__logo" src="./images/logo.png" alt="Фигурные крылья" />
+        </div>
+      </section>
+      <section class="team section" id="team">
+        <h2 class="section__title">Наша команда</h2>
+        <div class="team__content">
+          <article class="team__card">
+            <img src="./images/Polina.jpg" alt="Фото Полины" class="team__photo">
+            <h3 class="team__name">Иваненко<br>Полина Александровна</h3>
+            <p class="team__status">Основательница Клуба</p>
+            <p class="team__card_text">Член юниорской сборной России в танцах на льду, в течение 5 лет. Серебряный призёр этапа кубка мира-2018 в Канаде, бронзовый призёр этапа кубка мира в Словении. Победительница Российско-Китайских игр 2018. Участница этапа кубка мира в Японии 2016. Двукратная победительница первенства России по Старшему возрасту 2017 и 2018 год.</p>
+            <a href="https://t.me/figurewings" target="_blank" class="about__link team__link">
+              <img src="./svg/Vector.svg" alt="Телеграм" class="telegram_icon" />
+              https://t.me/figurewings
+            </a>
+            <img src="./images/telegramqr.png" class="telegramqr"/>
+          </article>
+          <article class="team__card">
+            <img src="./images/Ivan.jpg" alt="Фото Ивана" class="team__photo">
+            <h3 class="team__name">Лобанов<br>Иван Владимирович</h3>
+            <p class="team__status">Специалист в области фигурного катания</p>
+            <p class="team__card_text">Мастер спорта,член сборной команды России в течение 10 лет,тренер с опытом работы более 15 лет,спортсмены под его руководством доходили до уровня Сборной команды России и этапов кубка Мира.</p>
+          </article>
+        </div>
+      </section>
+      <section class="section groups" id="groups">
+        <h2 class="section__title">Открыт набор в группы</h2>
+        <div class="groups__content">
+          <article class="groups__card">
+            <h3 class="groups__name">Первые шаги</h3>
+            <p class="groups__age">3-6 лет</p>
+            <p class="groups__text">Научим держаться на льду, выполнять первые движения, играть на коньках</p>
+          </article>
+          <article class="groups__card">
+            <h3 class="groups__name">Школьники</h3>
+            <p class="groups__age">от 7 лет</p>
+            <p class="groups__text">Базовая техника, устойчивость, вращения</p>
+          </article>
+          <article class="groups__card">
+            <h3 class="groups__name">Fitness on Ice</h3>
+            <p class="groups__age">взрослые</p>
+            <p class="groups__text">Катание для здоровья и удовольствия</p>
+          </article>
+          <article class="groups__card">
+            <h3 class="groups__name">Танцы с нуля</h3>
+            <p class="groups__age">дети и взрослые</p>
+            <p class="groups__text">Современные танцы с 0</p>
+          </article>
+        </div>
+        <button class="banner__button">Записаться</button>
+      </section>
+      <section class="section price" id="price">
+        <h2 class="section__title">Цены на занятия</h2>
+        <div class="price__content">
+          <article class="price__card">
+            <h3 class="price__card_title">Лёд + зал</h3>
+            <h4 class="price__card_subtitle">Абонементы</h4>
+            <p class="price__card_text">3 р/нед (1ч лёд + 1ч зал) - 24ч занятий в месяц - 24 000 руб.</p>
+            <p class="price__card_text">2 р/нед (1ч лёд + 1ч зал) - 16ч занятий в месяц - 18 000 руб.</p>
+            <hr>
+            <h4 class="price__card_subtitle">Индивидуальные занятия</h4>
+            <p class="price__card_text">1 человек - 3 000 руб/час</p>
+            <p class="price__card_text">2 человека - 2 000 руб/час (с чел.)</p>
+            <p class="price__card_text">3 человека - 1 500 руб/час (с чел.)</p>
+          </article>
+          <article class="price__card">
+            <h3 class="price__card_title">Современные танцы, хореография, растяжка</h3>
+            <h4 class="price__card_subtitle">Абонементы</h4>
+            <p class="price__card_text">3 р/нед - 12 занятий в месяц - 9 000 руб.</p>
+            <p class="price__card_text">2 р/нед - 8  занятий в месяц - 7 500 руб.</p>
+            <hr>
+            <h4 class="price__card_subtitle">Индивидуальные занятия</h4>
+            <p class="price__card_text">Цены по договоренности</p>
+            <p class="price__card_text">Разовое занятие - 1 000 руб/час</p>
+          </article>
+        </div>
+        <article class="price__promo">
+          <h3 class="price__promo_title">
+            <img src="./svg/Present.svg" alt="Телеграм" class="telegram_icon" />
+            Акция
+          </h3>
+          <p class="price__promo_text">Приведи друга или второго ребенка и получи с следующем месяце при оплате скидку 2000 руб</p>
+        </article>
+      </section>
+      <section class="section schedule" id="schedule">
+        <h2 class="section__title">Предварительное расписание занятий</h2>
+        <h3 class="schedule__subtitle">Старт занятий - 1 сентября 2025 года</h3>
+        <div class="schedule__content">
+          <article class="schedule__card">
+            <h4 class="schedule__card_title">Понедельник</h4>
+            <p class="schedule__card_text">19:30-20:30 - ОФП / Танцы</p>
+            <p class="schedule__card_text">20:45-21:45 - Лёд</p>
+          </article>
+          <article class="schedule__card">
+            <h4 class="schedule__card_title">Среда</h4>
+            <p class="schedule__card_text">19:30-20:30 - ОФП / Танцы</p>
+            <p class="schedule__card_text">20:45-21:45 - Лёд</p>
+          </article>
+          <article class="schedule__card">
+            <h4 class="schedule__card_title">Пятница</h4>
+            <p class="schedule__card_text">18:15-19:15 - ОФП / Танцы</p>
+            <p class="schedule__card_text">19:30-20:30 - Лёд</p>
+          </article>
+        </div>
+        <p class="schedule__info">Запись на просмотр открыта с 20 июля 2025 года</p>
+      </section>
+      <section class="section reg" id="form">
+        <h2 class="section__title">Записаться на занятие</h2>
+        <div class="container">  
+          <!-- Правая часть -->
+          <div class="form-container">
+            <h3 class="form-container__title">Оставьте заявку</h3>
+            <form id="contactForm">
+              <input type="text" id="name" name="name" placeholder="Имя" required>
+              <input type="tel" id="phone" name="phone" placeholder="Телефон" required pattern="[0-9+() -]{5,}">
+              <textarea id="comments" name="comments" placeholder="Комментарии"></textarea>
+              <div class="checkbox-container">
+                <input type="checkbox" id="consent" required>
+                <label for="consent">Даю согласие на обработку своих персональных данных</label>
+              </div>
+              <button type="submit">Отправить</button>
+            </form>
+          </div>
+          <!-- Левая часть -->
+          <div class="contact-info">
+            <h3>Или позвоните нам</h3>
+              <p>📞 +7 (123) 456-78-90</p>
+              <p>📞 +7 (987) 654-32-10</p>
+          </div>
+
+        </div>
+
+      </section>
+      <section class="section reviews" id="reviews">
+        <h2 class="section__title">Что говорят ученики</h2>
+        <div class="reviews__content">
+          <article class="reviews__card">
+            <h3 class="reviews__card_title">Анна, 34 года</h3>
+            <p class="reviews__card_text"><span class="quot">«</span>Заниматься с Полиной Александровной - это как попасть в кино. Очень тонкая, внимательная, с потрясающей энергетикой. После каждой тренировки хочется летать!<span class="quot">»</span></p>
+          </article>
+          <article class="reviews__card">
+            <h3 class="reviews__card_title">Светлана, мама Кати</h3>
+            <p class="reviews__card_text"><span class="quot">«</span>Дочка сначала боялась льда, а теперь не может дождаться следующего занятия. Все благодаря подходу преподавателей - спокойно, по-доброму, но с дисциплиной.<span class="quot">»</span></p>
+          </article>
+          <article class="reviews__card">
+            <h3 class="reviews__card_title">Ирина, 41 год</h3>
+            <p class="reviews__card_text"><span class="quot">«</span>Хожу на занятия для взрослых. Настоящий релакс для тела и головы. Фигура подтянулась, настроение улучшилось. Очень рекомендую!<span class="quot">»</span></p>
+          </article>
+        </div>
+      </section>
+      <section class="section video">
+        <h2 class="section__title">Вдохновение в движении</h2>
+        <div class="video-container">
+          <video id="myVideo" src="./video/video.MP4" poster="./images/poster_video.png"></video>
+          <button class="play-pause" id="playPauseBtn">▶️</button>
+          <div class="caption">Этап кубка Мира в Канаде 2018 TANGO</div>
+        </div>
+      </section>
+      <section class="section gallery" id="gallery">
+        <h2 class="section__title">Моменты с наших занятий</h2>
+        <div class="gallery__grid">
+          <img class="gallery__item" src="./images/gallery_1.JPG" />
+          <img class="gallery__item" src="./images/gallery_2.JPG" />
+          <img class="gallery__item" src="./images/gallery_3.JPG" />
+          <img class="gallery__item" src="./images/gallery_4.JPG" />
+          <img class="gallery__item" src="./images/gallery_5.JPG" />
+          <img class="gallery__item" src="./images/gallery_6.JPG" />
+          <img class="gallery__item" src="./images/gallery_10.JPG" />
+          <img class="gallery__item" src="./images/gallery_8.JPG" />
+          <img class="gallery__item" src="./images/gallery_9.JPG" />
+          <img class="gallery__item" src="./images/gallery_12.JPG" />
+          <img class="gallery__item" src="./images/gallery_11.JPG" />
+          <img class="gallery__item" src="./images/gallery_7.JPG" />
+        </div>
+        <button class="gallery__button">Показать ещё</button>
+      </section>
+      <!-- Лайтбокс -->
+      <div class="lightbox" id="lightbox">
+        <span class="lightbox_close">&times;</span>
+        <img class="lightbox_img" src="" alt="Просмотр фото">
+      </div>
+      <section class="section where" id="where">
+        <h2 class="section__title">Где проходят занятия</h2>
+        <div class="where__content">
+          <div class="where__text">
+            <div class="where__address">
+              <p>Адрес:</p>
+              <p>Спортивный комплекс “Некрасовка” Москва, ул. Покровская, 22</p>
+              <p>3 мин пешком от метро</p>
+            </div>
+            <button class="banner__button">Записаться</button>
+          </div>
+          <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A54c577f0271e95e5cc46de0712871c154d771933b7457f96be6c708f548218dc&amp;source=constructor" width="690" height="410" frameborder="0" class="map"></iframe>
+        </div>
+      </section>
+    </main>
+    <footer class="section footer">
+      <img class="about__logo footer__logo" src="./images/logo.png" />
+      <nav>
+          <ul class="footer__menu">
+            <li>О Клубе</li>
+            <li>Команда</li>
+            <li>Группы</li>
+            <li>Цены</li>
+            <li>Расписание</li>
+            <li>Отзывы</li>
+            <li>Галерея</li>
+            <li>Где проходит</li>
+          </ul>
+        </nav>
+        <div class="footer__contacts">
+          <p>Контакты:</p>
+          <p>+7(926)629-24-26</p>
+          <p>+7(926)629-29-46</p>
+          <div class="footer__contacts_buttons">
+            <button class="footer__button">Telegram канал Клуба</button>
+            <button class="footer__button">Telegram канал Полины</button>
+          </div>
+        </div>
+    </footer>
+    <script src="./scripts/script.js"></script>
+  </body>
