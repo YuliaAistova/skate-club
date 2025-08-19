@@ -19,13 +19,13 @@
           </button>
 
           <ul id="nav-list" class="header__menu">
-            <li><a href="#about">О Клубе</a></li>
-            <li><a href="#groups">Группы</a></li>
-            <li><a href="#price">Цены</a></li>
-            <li><a href="#schedule">Расписание</a></li>
-            <li><a href="#reviews">Отзывы</a></li>
-            <li><a href="#gallery">Галерея</a></li>
-            <li><a href="#where">Где проходит</a></li>
+            <li><a href="#about" class="header__menu-link">О Клубе</a></li>
+            <li><a href="#groups" class="header__menu-link">Группы</a></li>
+            <li><a href="#price" class="header__menu-link">Цены</a></li>
+            <li><a href="#schedule" class="header__menu-link">Расписание</a></li>
+            <li><a href="#reviews" class="header__menu-link">Отзывы</a></li>
+            <li><a href="#gallery" class="header__menu-link">Галерея</a></li>
+            <li><a href="#where" class="header__menu-link">Где проходит</a></li>
             <li class="nav__cta"><a href="#form" class="header__button header__button--primary">Записаться</a></li>
           </ul>
         </nav>
@@ -64,9 +64,9 @@
             <h3 class="team__name">Иваненко<br>Полина Александровна</h3>
             <p class="team__status">Основательница Клуба</p>
             <p class="team__card_text">Член юниорской сборной России в танцах на льду, в течение 5 лет. Серебряный призёр этапа кубка мира-2018 в Канаде, бронзовый призёр этапа кубка мира в Словении. Победительница Российско-Китайских игр 2018. Участница этапа кубка мира в Японии 2016. Двукратная победительница первенства России по Старшему возрасту 2017 и 2018 год.</p>
-            <a href="https://t.me/figurewings" target="_blank" class="about__link team__link">
+            <a href="t.me/dance_by_polinka" target="_blank" class="about__link team__link">
               <img src="./svg/Vector.svg" alt="Телеграм" class="telegram_icon" />
-              https://t.me/figurewings
+              t.me/dance_by_polinka
             </a>
             <img src="./images/telegramqr.png" class="telegramqr"/>
           </article>
@@ -110,7 +110,6 @@
           <article class="price__card">
             <h3 class="price__card_title">Лёд + зал</h3>
             <h4 class="price__card_subtitle">Абонементы</h4>
-            <p class="price__card_text">3 р/нед (1ч лёд + 1ч зал) - 24ч занятий в месяц - 24 000 руб.</p>
             <p class="price__card_text">2 р/нед (1ч лёд + 1ч зал) - 16ч занятий в месяц - 18 000 руб.</p>
             <hr>
             <h4 class="price__card_subtitle">Индивидуальные занятия</h4>
@@ -121,7 +120,6 @@
           <article class="price__card">
             <h3 class="price__card_title">Современные танцы, хореография, растяжка</h3>
             <h4 class="price__card_subtitle">Абонементы</h4>
-            <p class="price__card_text">3 р/нед - 12 занятий в месяц - 9 000 руб.</p>
             <p class="price__card_text">2 р/нед - 8  занятий в месяц - 7 500 руб.</p>
             <hr>
             <h4 class="price__card_subtitle">Индивидуальные занятия</h4>
@@ -139,22 +137,17 @@
       </section>
       <section class="section schedule" id="schedule">
         <h2 class="section__title">Предварительное расписание занятий</h2>
-        <h3 class="schedule__subtitle">Старт занятий - 1 сентября 2025 года</h3>
+        <h3 class="schedule__subtitle">Старт занятий - 15 сентября 2025 года</h3>
         <div class="schedule__content">
           <article class="schedule__card">
             <h4 class="schedule__card_title">Понедельник</h4>
-            <p class="schedule__card_text">19:30-20:30 - ОФП / Танцы</p>
-            <p class="schedule__card_text">20:45-21:45 - Лёд</p>
+            <p class="schedule__card_text">13:00-14:00 - ОФП / Танцы</p>
+            <p class="schedule__card_text">14:15-15:15 - Лёд</p>
           </article>
           <article class="schedule__card">
             <h4 class="schedule__card_title">Среда</h4>
-            <p class="schedule__card_text">19:30-20:30 - ОФП / Танцы</p>
-            <p class="schedule__card_text">20:45-21:45 - Лёд</p>
-          </article>
-          <article class="schedule__card">
-            <h4 class="schedule__card_title">Пятница</h4>
-            <p class="schedule__card_text">18:15-19:15 - ОФП / Танцы</p>
-            <p class="schedule__card_text">19:30-20:30 - Лёд</p>
+            <p class="schedule__card_text">13:00-14:00 - ОФП / Танцы</p>
+            <p class="schedule__card_text">14:15-15:15 - Лёд</p>
           </article>
         </div>
         <p class="schedule__info">Запись на просмотр открыта с 20 июля 2025 года</p>
@@ -173,14 +166,14 @@
                 <input type="checkbox" id="consent" required>
                 <label for="consent">Даю согласие на обработку своих персональных данных</label>
               </div>
-              <button type="submit">Отправить</button>
+              <button class="banner__button" type="submit">Отправить заявку</button>
             </form>
           </div>
           <!-- Левая часть -->
           <div class="contact-info">
-            <h3>Или позвоните нам</h3>
-              <p>📞 +7 (123) 456-78-90</p>
-              <p>📞 +7 (987) 654-32-10</p>
+            <h3 class="form-container__title">Или позвоните нам</h3>
+              <p>📞 +7(926)629-24-26</p>
+              <p>📞 +7(926)629-29-46</p>
           </div>
 
         </div>

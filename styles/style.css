@@ -39,6 +39,10 @@
     gap: 32px;
 }
 
+.header__menu-link:hover {
+    text-decoration: underline var(--accent-color);
+}
+
 .nav__cta {
   display: none;
 }
@@ -52,6 +56,11 @@
     font-weight: 600;
     line-height: 150%;
     letter-spacing: 0.17px;
+    transition: background-color 0.3s ease;
+}
+
+.header__button:hover {
+    background-color: var(--accent-color);
 }
 
 .header__button--primary {
@@ -234,7 +243,7 @@
 
 
 .section {
-    padding: 60px var(--margin-lr);
+    padding: 80px var(--margin-lr) 40px;
 }
 
 .section__title {
@@ -594,18 +603,15 @@ hr {
   /* Левая часть */
   .contact-info {
     flex: 1;
-    background: #f0f0f0;
     min-width: 250px;
   }
 
-  .contact-info h2 {
-    margin-top: 0;
-    color: #333;
-  }
-
   .contact-info p {
-    font-size: 1.1rem;
-    margin: 10px 0;
+    font-size: 20px;
+    line-height: 32px;
+    font-family: var(--accent-font), sans-serif;
+    font-weight: 600;
+    margin-top: 20px;
   }
 
   /* Правая часть */
@@ -645,11 +651,7 @@ hr {
     margin-bottom: 15px;
   }
 
-  .checkbox-container input {
-    margin-right: 10px;
-  }
-
-  button {
+/*  button {
     padding: 12px;
     font-size: 1rem;
     background: #007BFF;
@@ -658,7 +660,7 @@ hr {
     border-radius: 5px;
     cursor: pointer;
     transition: background 0.3s;
-  }
+  } */
 
   button:hover {
     background: #0056b3;
@@ -951,7 +953,7 @@ hr {
 
 @media (max-width: 768px) {
     .footer {
-        flex-direction: column-reverse;
-        justify-content: center;
+        flex-direction: column;
+        gap: 30px;
     }
 }
