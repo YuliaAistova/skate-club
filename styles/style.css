@@ -954,6 +954,6 @@ hr {
 @media (max-width: 768px) {
     .footer {
         flex-direction: column;
-        gap: 30px;
+        gap: 40px;
     }
 }
